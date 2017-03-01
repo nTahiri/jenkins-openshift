@@ -58,4 +58,4 @@ RUN /usr/local/bin/install-plugins.sh /opt/openshift/base-plugins.txt && \
 VOLUME ["/var/lib/jenkins"]
 
 USER 1001
-CMD ["/usr/libexec/s2i/run"]
+CMD ["/usr/libexec/s2i/assemble"]

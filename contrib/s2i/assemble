@@ -34,3 +34,4 @@ if [ -d ${JENKINS_INSTALL_DIR}/configuration ]; then
   shopt -s dotglob
   mv ${JENKINS_INSTALL_DIR}/configuration/* ${JENKINS_DIR}/configuration/
 fi
+/usr/libexec/s2i/run
